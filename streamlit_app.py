@@ -67,7 +67,7 @@ def process_image(image_input, bg_color):
             headers={'X-Api-Key': API_KEY},
         )
 
-        if response.status_color == 200:
+        if response.status_code == 200:
             # Fondo borrado con éxito (imagen PNG transparente)
             img_no_bg = Image.open(io.BytesIO(response.content)).convert("RGBA")
         else:
