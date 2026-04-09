@@ -43,7 +43,7 @@ import os
 # CONFIGURACIÓN IMPORTANTE
 # Reemplaza 'TU_API_KEY_AQUÍ' con tu clave real de remove.bg entre las comillas simples.
 # Ejemplo: API_KEY = 'aB1cD2eF3gH4iJ5k'
-API_KEY = PhjdvXY8j4ty4YUSS8YvQjJL 
+API_KEY = 'PhjdvXY8j4ty4YUSS8YvQjJL' 
 
 def process_image(image_input, bg_color):
     """
