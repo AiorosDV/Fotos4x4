@@ -34,9 +34,7 @@ if uploaded_file is not None:
             file_name="foto_4x4.png",
             mime="image/png"
         )
-[10:00 a.m., 9/4/2026] Dani El Tumba: Que es lo que tenía que ver que era importante
-[10:01 a.m., 9/4/2026] Dani El Tumba: streamlit_app.py
-[10:14 a.m., 9/4/2026] Dani El Tumba: import streamlit as st
+import streamlit as st
 from PIL import Image
 import requests
 import io
