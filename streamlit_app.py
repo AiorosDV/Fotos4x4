@@ -1,5 +1,5 @@
 
-[9:59 a.m., 9/4/2026] Dani El Tumba: import streamlit as st
+import streamlit as st
 from PIL import Image
 import io
 
